@@ -1,0 +1,145 @@
+<html>
+    <head>
+                <title>welcome to login page  </title>
+<style>
+.cover { width:100%;
+        height:100%;
+        background-color: black;
+        display: flex;
+        justify-content: right;
+        margin-top: 200px;
+}
+.logo{
+    align-items: center;
+    float:left;
+    margin-top: 150px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    margin-right: 150px;
+    
+}
+.text{
+    align-self: center;
+    align-items: center;
+    float:left;
+    margin-top:50px;
+    border: 2px black solid;
+    padding:60px;
+    margin-left:100px;
+    margin-bottom:300px;
+    box-shadow: 5px 5px 3px 3px rgba(255, 20, 145, 0.812);
+    background-color: white;
+    display: block;
+    justify-content: center;
+
+    
+        
+    
+}
+.first{
+    height:50px;
+    font-size: 25px;
+    padding:30px;
+
+    
+}
+.second{
+    height:50px;
+    font-size: 25px;
+    padding:30px;
+    
+}
+.subdiv {
+      height:50px;
+      font-size: 15px;
+      margin-left:280px;
+      padding-top: 25px;
+      cursor: pointer;
+      display:contents;
+    
+}
+.button{  
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+}
+.input1{
+    font-size: 20px;
+    height: 50px;
+    box-shadow: 3px 0px 2px 2px grey;
+}
+.input2{
+    font-size: 20px;
+    height: 50px;
+    box-shadow: 3px 0px 2px 2px grey;
+}
+.h1{
+    font-family: cursive;
+    text-align: center;
+    font-size:50px; 
+}
+.or{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    
+}
+.facebook{
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+</style>
+    </head>
+<body style="background-color: black;">
+<div class="cover">
+    <div class="logo">
+        <img src="instagram logo.png" style=" margin-top:10%; margin-left:10%; width:350px; height:350px; margin-bottom:380px;"/>
+    </div>
+        <div class="text" style="margin-right: 100px;">
+
+                                <h1 class="h1"> instagram  <img src="instagram logo.png" height="40px" width="40px"/></h1> 
+
+            <div class="first">
+          username :-- <input type="text" name="" value="" placeholder="enter username" autofocus="" class="input1" />
+            </div>
+</br>
+            <div  class="second">
+            password:-- <input type="password" name="password" value="" placeholder="password" class="input2"/>
+</br>
+                    <div class="subdiv">
+                         remember me <input type="checkbox" name="remember[]" height="80px" />
+                     </div>
+            </div>
+
+            <div>
+                <button style="margin:60px; margin-left: 110px; height:55px; width:250px; border:3px solid blue; font-size: 25px; color:white; background-color:deepskyblue;" class="button" onclick="login()">login</button>
+            </div>
+            <div class="or">
+                OR
+            </div>
+           <div class="facebook">
+            <img src="facebook.png" height="50px" width="100px"/>
+           </div> 
+        </div>
+ 
+
+ </div>
+</body>
+                <script type="text/javascript">
+                        
+                        var x = "your were sucessfully logged in to your account !!";
+                        var red=x;
+                        function login(){
+                            
+                                alert("new login detected !!!!");
+
+                            document.write("<h1>"+ red + "</h1>");
+                        }
+
+                </script>
+
+</html>
